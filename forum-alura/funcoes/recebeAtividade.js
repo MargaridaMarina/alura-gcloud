@@ -1,6 +1,9 @@
+const pubsub = require('./pubsub')
+
 //exportar funcao que vai processar o endpoint http
 module.exports = async function recebeAtividade (requisicao, resposta) {
+    const resultado = await pubsub(requisicao.body, 'atividades')
     console.log(requisicao.body)
-    resposta.send(JSON.stringify(requisicao.bodya)) //recebe qualquer valor em javascript e retorna como string em formato JSON
+    resposta.send(resultado) //recebe qualquer valor em javascript e retorna como string em formato JSON
 }
 
