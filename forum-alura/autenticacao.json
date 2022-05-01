@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "handy-sensor-349023",
+  "private_key_id": "6a329b377eaa3219e8df9a84c174806d36053378",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCj0ZP7c7lPgEuu\nfeJKREM4zxQJt4Ato2V2Lb/kJzS1Ke2MlfN2z2WCZ6nT+GqsEI79BDdZfc2OXKsl\n/cDjLsrjDahy3073v9ASWlx+mJ0urvRC0W7wL9gfiz9Cnd3jRqsQqAoXL2KLx+K1\nWRb9jLI3rVFBvOcwlFOnNnphnriR9CIGMdYCo/jZwTjDba7B882VoHOK42lU+hcs\nko8z4XB2m66XeMDQnhcIGzQ8T8k2QNuEhI75HcL56Ag4hYWEC37s+yjIyoOLc4Gk\nZd+8PETUFXtgotn+7mgKCuQXLW3emgynrtUjoy2mDCjMmtIrmSwwfmxE140MDPOg\nX3BJr5dpAgMBAAECggEADMMZFHaM6fmMdnz2RK4Mj5qATOEnt5vPsx/NdSHXHG2h\nBOSyBCA+9U8L9F3ED6tgPFatqjI1B0FxuuK0ehkNM22UYSiY72Tued43b6Gw4xq8\nSuVOeiCRZXm0tVpKQjhhP3Rb3uJb5W2ucXgjOfWnSlOdWDH2JSXKXjqOA64ODR6t\naAi/u8XJ+ON5j3uwm2OZ2GmYh9fLCt44+cgyBbFt/Uzab7mb8YsNlObwjZ9J5Ckr\nlE69j7s6BngHQw87Dvz/OeN/9QwvOY1txWAtvpXekIOuUIGyV+6+LFMmpwSy9Jj9\nI/hvUQ/BNb6u3zu+zpTcdoCq6R4IwKTSQMHdQVjq5QKBgQDZoeJaKENd/P0zKyoh\nGTpRrwa773Fucqm2nySXZM3FjABBpB+fkAB2bn3MQEdkqTjbw9ol4GSKRtC6xSxS\n6qSTqOjqA3H4NERPPyFsauqFthfARFK1AHY6MDZda/r2P+tjnBaJS5ZP5Rl6TAqV\nm3TPlTi2HMclHPmYE8yqDBRLvQKBgQDAsv2tdVM1if1MVWRphjNE9CdwoIfm0cmb\nARrk1PVStOFgnKbaUe99NgM0EY0g29ER4kk36eXp5abLh8XhkHQGPCzcdmh/FfwZ\nbCsiu1D2O3lxJJgayKe/2r3ViVjEoVR7ZM8baXOyRM7VTIgpbRjyvpLSDMpAoYhi\nSxh5p/W/HQKBgEUzg40Vdm5hboWhuRCzO+cTV3nU5mWvUiW+rtzw8blaDg7RSDjt\niigedCPJYKoyYOEIgso+ctnBMMfiwHhRIinNsNoQZGH/BKWKNm+KA66muyCo2P+y\n+OUBxZepKTC6HHgc/tGDVnVrLNHFciwmNVt4YIMP3YcAkqD30sFTe/SlAoGAJsMa\nkkzaexeR00wOEcgEAifW0yoHjF/A3SRAw60u1/84otWAHsSClz5JMK0jJWvyR1Ws\ngsnTDNS8U46xOGl1XVe3cnWDGaVTe82tc6QYah+WkzLYQfMBA2+95fll2M/XDac+\nnfX9Zuu+a1ukvCiM7y90mzolaRDVPWh7uOUXYuUCgYEAs/2upFj67zLoA+bRplON\nq2Qv0O632ak0Ub0wjNrkJZ2T06WOL0kFZ1o4D4LEJ+vADlxA/JGdGFvgZRwxzmct\nkAgiKGFzlaWtdZVayoIyLu5l9/Kv+bXec5R9qujkw6QYd53cURYE/HkY/ZXKpfch\n3NwFRtldAOAlRY3SXTUaUQk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "forum-alura3@handy-sensor-349023.iam.gserviceaccount.com",
+  "client_id": "114296419438948357525",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/forum-alura3%40handy-sensor-349023.iam.gserviceaccount.com"
+}

@@ -5,12 +5,12 @@ provider:
   stage: dev
   runtime: nodejs10
   region: us-central1
-  project: my-project
+  project: handy-sensor-349023
   # The GCF credentials can be a little tricky to set up. Luckily we've documented this for you here:
   # https://serverless.com/framework/docs/providers/google/guide/credentials/
   #
   # the path to the credentials file needs to be absolute
-  credentials: ~/.gcloud/keyfile.json
+  credentials: ./autenticacao.json
 
 frameworkVersion: '3'
 
@@ -26,10 +26,10 @@ package:
     - .git/**
 
 functions:
-  first:
-    handler: http
-    events:
-      - http: path
+  recebeAtividade: #a chave do dicionario representa o nome da funcao que vai estar dentro do google cloud functions
+    handler: recebeAtividade #dentro dela temos a propriedade handler que representa o nome da nossa funcao em javascript
+    events: 
+      - http: path #eventos que vao disparar a funcao
   # NOTE: the following uses an "event" event (pubSub event in this case).
   # Please create the corresponding resources in the Google Cloud
   # before deploying this service through Serverless
