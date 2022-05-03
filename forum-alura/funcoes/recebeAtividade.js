@@ -1,4 +1,4 @@
-const pubsub = require('./pubsub')
+const pubsub = require('./pubSub')
 
 //exportar funcao que vai processar o endpoint http
 module.exports = async function recebeAtividade (requisicao, resposta) {
