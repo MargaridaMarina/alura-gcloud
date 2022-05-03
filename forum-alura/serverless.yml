@@ -5,12 +5,12 @@ provider:
   stage: dev
   runtime: nodejs10
   region: us-central1
-  project: handy-sensor-349023
+  project: celestial-sum-349101
   # The GCF credentials can be a little tricky to set up. Luckily we've documented this for you here:
   # https://serverless.com/framework/docs/providers/google/guide/credentials/
   #
   # the path to the credentials file needs to be absolute
-  credentials: ./autenticacao.json
+  credentials: ./authentication.json
 
 frameworkVersion: '3'
 
@@ -30,6 +30,12 @@ functions:
     handler: recebeAtividade #dentro dela temos a propriedade handler que representa o nome da nossa funcao em javascript
     events: 
       - http: path #eventos que vao disparar a funcao
+  insereAtividade: 
+    handler: insereAtividade
+    events:
+      - event: 
+          eventType: providers/cloud.pubsub/eventTypes/topic.publish
+          resource: projects/${self:provider.project}/topics/atividades
   # NOTE: the following uses an "event" event (pubSub event in this case).
   # Please create the corresponding resources in the Google Cloud
   # before deploying this service through Serverless
