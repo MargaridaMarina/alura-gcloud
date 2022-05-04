@@ -11,6 +11,6 @@ module.exports = async function insereAtividade (evento) { //funcao de backgroun
         console.log(resultados)
     } catch (erro) {
         console.error(erro)
-        console.log(erro.response) //se for um erro do bigQuery podemos acessar o response
+        console.log(JSON.stringify(erro.response)) //se for um erro do bigQuery podemos acessar o response
     }
 }
